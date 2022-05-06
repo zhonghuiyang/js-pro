@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var flag1=true;
+        var flag2=false;
+        console.log(flag1+1);    
+        // true是1
+        console.log(flag2+1);    
+        // false是0
+        var variable=undefined;
+        console.log(variable+12);
+        // 不定义加数字  最后结果是nan
+        console.log("pink"+variable);
+        // 输出是pinkundefined
+        var space=null;
+        console.log(space+'pink');
+        // nullpink
+        console.log(space+12);
+        // 12  null相当于0
+        var num=10;
+        console.log(typeof num);  
+        // 数字类型
+        console.log(typeof str);
+        // 字符串类型
+        console.log(typeof flag);
+        // 布尔类型
+        console.log(typeof vari);
+        // 不定义类型
+        console.log(typeof timer);
+        // object任意类型
+        var age=prompt("请输入数字");
+        // 转化数字类型为字符串类型  age记录的是字符串
+        console.log(typeof age);
+        // 输出结果是str
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
